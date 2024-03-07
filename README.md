@@ -1,2 +1,2 @@
-# New-Python-Prog
+# Python-Prog
 Python Prog Testing
