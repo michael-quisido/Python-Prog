@@ -1,0 +1,37 @@
+#!/usr/bin/python3
+
+# import for turtle
+import turtle
+ 
+# Starting a Working Screen
+window = turtle.Screen()
+window.title("Intricate Shapes Loop Drawing - Michael M. Quisido III DEMO")
+window.bgcolor("#000080")
+ 
+# initializing a turtle instance
+
+mikeqstar = turtle.Turtle()
+# Heading Home
+mikeqstar.home
+# setting up the pen color and size
+mikeqstar.pen(pencolor="#ff1ac6", pensize=1)
+# Head posistion.
+mikeqstar.setpos((-200,0))
+# Hiding the head drawing the arrow or turtle
+mikeqstar.hideturtle()
+# executing loop speed drawing for fast execution.
+mikeqstar.speed(7)
+
+# executing loop 100 times 
+for i in range(100):
+ 
+       
+        # moving head for 400 units forward
+        mikeqstar.forward(400)
+ 
+        # rotating the hear for 844 degree right
+        mikeqstar.left(844)
+        
+print(mikeqstar.pos())
+              
+window.exitonclick()
