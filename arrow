@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+import turtle
+	
+def animate():
+    mikeq = turtle.Turtle()
+    mikeq.pen(fillcolor="#ffffff", pencolor="#ffffff", pensize=2)
+    mikeq.forward(100)
+    
+	
+window = turtle.Screen()
+window.bgcolor("#000080")
+	
+animate()
+
+window.exitonclick()
