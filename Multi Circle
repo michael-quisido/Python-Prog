@@ -1,0 +1,219 @@
+#!/usr/bin/python3
+import turtle
+# Michael M. Quisido III Circle animation.
+def anime():
+
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.left(60)
+    mikeqcircle.pen(fillcolor="#660033", pencolor="#660033", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)
+    
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.right(60)
+    mikeqcircle.pen(fillcolor="#660033", pencolor="#660033", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)
+    
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.left(55)
+    mikeqcircle.pen(fillcolor="#CC0066", pencolor="#CC0066", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)
+    
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.right(55)
+    mikeqcircle.pen(fillcolor="#CC0066", pencolor="#CC0066", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.left(50)
+    mikeqcircle.pen(fillcolor="#CC0000", pencolor="#CC0000", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)
+    
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.right(50)
+    mikeqcircle.pen(fillcolor="#CC0000", pencolor="#CC0000", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)
+    
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.left(45)
+    mikeqcircle.pen(fillcolor="#705214", pencolor="#705214", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)
+    
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.right(45)
+    mikeqcircle.pen(fillcolor="#705214", pencolor="#705214", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)
+       
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.left(40)
+    mikeqcircle.pen(fillcolor="#FF3300", pencolor="#FF3300", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)
+    
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.right(40)
+    mikeqcircle.pen(fillcolor="#FF3300", pencolor="#FF3300", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360) 
+    
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.left(35)
+    mikeqcircle.pen(fillcolor="#CC6600", pencolor="#CC6600", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)
+    
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.right(35)
+    mikeqcircle.pen(fillcolor="#CC6600", pencolor="#CC6600", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)    
+        
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.left(30)
+    mikeqcircle.pen(fillcolor="#CC3300", pencolor="#CC3300", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)
+    
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.right(30)
+    mikeqcircle.pen(fillcolor="#CC3300", pencolor="#CC3300", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)  
+    
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.left(25)
+    mikeqcircle.pen(fillcolor="#FF9900", pencolor="#FF9900", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)
+    
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.right(25)
+    mikeqcircle.pen(fillcolor="#FF9900", pencolor="#FF9900", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)  
+  
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.left(20)
+    mikeqcircle.pen(fillcolor="#CC9900", pencolor="#CC9900", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)
+    
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.right(20)
+    mikeqcircle.pen(fillcolor="#CC9900", pencolor="#CC9900", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)  
+    
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.left(15)
+    mikeqcircle.pen(fillcolor="#999966", pencolor="#999966", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)
+    
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.right(15)
+    mikeqcircle.pen(fillcolor="#999966", pencolor="#999966", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)  
+    
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.left(10)
+    mikeqcircle.pen(fillcolor="#669900", pencolor="#669900", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)
+    
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.right(10)
+    mikeqcircle.pen(fillcolor="#669900", pencolor="#669900", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)  
+    
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.left(5)
+    mikeqcircle.pen(fillcolor="#99FF66", pencolor="#99FF66", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)
+    
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.right(5)
+    mikeqcircle.pen(fillcolor="#99FF66", pencolor="#99FF66", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360) 
+    
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.left(1)
+    mikeqcircle.pen(fillcolor="#ffffff", pencolor="#ffffff", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)
+    
+    mikeqcircle = turtle.Turtle()
+    mikeqcircle.home
+    mikeqcircle.position()
+    mikeqcircle.right(1)
+    mikeqcircle.pen(fillcolor="#ffffff", pencolor="#ffffff", pensize=2)
+    mikeqcircle.degrees(fullcircle=360.0)
+    mikeqcircle.circle(120,360)   
+         
+    
+window = turtle.Screen()
+window.bgcolor("#000080")
+	
+anime()
+
+window.exitonclick()
