@@ -23,7 +23,7 @@ mikeqstar.hideturtle()
 mikeqstar.speed(7)
 
 # executing loop 100 times 
-for i in range(100):
+for kmcq in range(100):
  
        
         # moving head for 400 units forward
