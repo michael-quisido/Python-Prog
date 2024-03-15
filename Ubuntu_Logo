@@ -1,0 +1,140 @@
+#!/usr/bin/python3
+
+import turtle
+
+mikeq = turtle.Turtle()
+
+#Drawing window or the canvas for your drawing.
+pywindow = turtle.Screen()
+#Drawing window name/title or canvas title.
+pywindow.title("Ubuntu Logo on Python - By: Michael M. Quisido III")
+#Window backgraound color or canvas backgraound color.
+pywindow.bgcolor("#000080")
+#Window screen size or canvas size.
+pywindow.setup (width=1300, height=1000)
+
+#Drawing speed.
+mikeq.speed(1)
+
+#Drawing the big orange circle with 180 thick stroke on it.
+mikeq.begin_fill()
+mikeq.penup()
+mikeq.goto(290,100)
+mikeq.pendown()
+mikeq.setheading(100)
+
+
+for kmcq in range(1):
+
+     mikeq.pen(fillcolor="#ff5733", pencolor="#ff5733", pensize=180)
+     mikeq.degrees(fullcircle=360.0)
+     mikeq.circle(300,360)
+     mikeq.color("#000080")
+
+mikeq.end_fill()
+
+#Drawing the 1st small orange circle "head" with 20 thick stroke on it.
+mikeq.begin_fill()
+mikeq.penup()
+mikeq.goto(-280,80)
+mikeq.pendown()
+mikeq.pen(fillcolor="#000080", pencolor="#000080", pensize=20)
+mikeq.degrees(fullcircle=360.0)
+mikeq.circle(130,360)
+mikeq.color("#ff5733") 
+mikeq.end_fill()
+
+#Drawing the 2nd small orange circle "head" with 20 thick stroke on it.
+mikeq.begin_fill()
+mikeq.penup()
+mikeq.goto(380,380)
+mikeq.pendown()
+mikeq.pen(fillcolor="#000080", pencolor="#000080", pensize=20)
+mikeq.degrees(fullcircle=360.0)
+mikeq.circle(130,360)
+mikeq.color("#ff5733")  
+mikeq.end_fill()
+
+#Drawing the 3rd small orange circle "head" with 20 thick stroke on it.
+mikeq.begin_fill()
+mikeq.penup()
+mikeq.goto(290,-290)
+mikeq.pendown()
+mikeq.pen(fillcolor="#000080", pencolor="#000080", pensize=20)
+mikeq.degrees(fullcircle=360.0)
+mikeq.circle(130,360)
+mikeq.color("#ff5733") 
+mikeq.end_fill()
+
+#Drawing the 1st small gap in the circle with pen size 15.
+for kmcq2 in range(3):
+   
+    mikeq.penup()
+    mikeq.goto(0,50)
+    mikeq.pendown()
+    mikeq.setheading(90)
+    mikeq.down()
+    mikeq.pen(fillcolor="#000080", pencolor="#000080", pensize=15)
+
+
+mikeq.begin_fill()
+mikeq.right(95)
+mikeq.forward(420)
+mikeq.end_fill()
+
+#Drawing the 2nd small gap in the circle with pen size 15.
+mikeq.penup()
+mikeq.goto(0,50)
+mikeq.pendown()
+mikeq.setheading(90)
+mikeq.down()
+mikeq.pen(fillcolor="#000080", pencolor="#000080", pensize=15)
+
+mikeq.begin_fill()
+mikeq.right(215)
+mikeq.forward(420)
+mikeq.end_fill()
+
+#Drawing the 3rd small gap in the circle with pen size 15.
+mikeq.penup()
+mikeq.goto(0,50)
+mikeq.pendown()
+mikeq.setheading(90)
+mikeq.down()
+mikeq.pen(fillcolor="#000080", pencolor="#000080", pensize=15)
+
+
+mikeq.begin_fill()
+mikeq.right(335)
+mikeq.forward(420)
+mikeq.end_fill()
+
+#Writig text using Ubuntu Bold Font with pen size 2.
+for kmcq3 in range(2):
+
+    mikeq.penup()
+    mikeq.goto(-340,-460)
+    mikeq.pendown()
+    mikeq.setheading(90)
+    mikeq.down()
+    mikeq.pen(fillcolor="#ffffff", pencolor="#ffffff", pensize=2)
+    
+mikeq.begin_fill()
+mikeq.write("Team: Ubuntu Philippines", align="center", font=("Ubuntu Bold", 35))
+mikeq.end_fill()
+
+#Writig text using Ubuntu Bold Font with pen size 2.
+mikeq.penup()
+mikeq.goto(-320,-480)
+mikeq.pendown()
+mikeq.setheading(90)
+mikeq.down()
+mikeq.pen(fillcolor="#ffffff", pencolor="#ffffff", pensize=2)
+mikeq.hideturtle()
+    
+mikeq.begin_fill()
+mikeq.write("For more info contact us: info@ubuntu.com.ph or mike.quisido@ubuntu.com.ph", align="center", font=("Ubuntu Bold", 12))
+mikeq.end_fill()
+
+
+pywindow.exitonclick()
