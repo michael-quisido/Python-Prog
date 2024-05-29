@@ -27,7 +27,7 @@ mikeq.speed(2)
 # setting up the position of the head
 for kmcq1 in range(1):
 
-# Setting up the position of the head    
+# Setting up the Blue field of the drawing, "Philippines flag".
     mikeq.home
     mikeq.begin_fill()
     mikeq.penup()
@@ -42,7 +42,7 @@ for kmcq1 in range(1):
     mikeq.forward(800)
     mikeq.end_fill()
 
-
+# Setting up the Red field of the drawing, "Philippines flag".
 mikeq.penup()
 mikeq.goto(-400,50)
 mikeq.pendown()
@@ -58,7 +58,7 @@ mikeq.right(90)
 mikeq.forward(200)
 mikeq.end_fill()
 
-
+# Setting up the white field of the drawing, "Philippines flag".
 mikeq.penup()
 mikeq.goto(-400,250)
 mikeq.pendown()
