@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import turtle
 # Michael M. Quisido III Circle animation.
+# Email: mike.quisido@kmcq-gmbh.com
 def anime():
 
     mikeqcircle = turtle.Turtle()
