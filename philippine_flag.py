@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-#email: mike.quisido@kmcq-gmbh.com
-import turtle
-
 
 # Independence Day Philippines
 # This Python code is a drawing Philippine Flag in participation to the independence day 2024 Philippines. 
@@ -9,6 +6,8 @@ import turtle
 # Purely written By: Michael M. Quisido III using Python Programming Language
 # GNU General Public License version 2 python 3.
 # For more information : info@ubuntu.com.ph or mike.quisido@ubuntu.com.ph
+
+import turtle
 
 # Setting turtle
 mikeq = turtle.Turtle()
