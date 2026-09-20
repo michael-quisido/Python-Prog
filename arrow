@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#email: mike.quisido@kmcq-gmbh.com
 import turtle
 	
 def animate():
