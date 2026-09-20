@@ -8,7 +8,6 @@
 
 
 import turtle
-
 def anime():
 
     mikeqcircle = turtle.Turtle()
