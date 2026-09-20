@@ -1,15 +1,14 @@
 #!/usr/bin/python3
-# email: mike.quisido@kmcq-gmbh.com
-
-import turtle
 
 # Holy week March 29 2024
+# This Python code is a drawing of  Ubuntu Logo in participation/contribution of Ubuntu Community world wide 
 # This Python code is a drawing of a 3 cross with a stars and a moon to participation to the holy weeek 2024
 # Copyright (C) 2024 Open Source Matters, Inc. All rights reserved.
 # Purely written By: Michael M. Quisido III using Python Programming Language
 # GNU General Public License version 2 or later.
-# For more information : info@ubuntu.com.ph or mike.quisido@ubuntu.com.ph
+# For more information email me: mike.quisido@kmcq-gmbh.com
 
+import turtle
 
 # set screen
 mikeq = turtle.Turtle()
