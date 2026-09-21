@@ -4,7 +4,7 @@
 # Copyright (C) 2024 Open Source Matters, Inc. All rights reserved.
 # Purely written By: Michael M. Quisido III using Python Programming Language
 # GNU General Public License version 2 or later.
-# For more information email me: mike.quisido@kmcq-gmbh.com
+# For more information email me: mike.quisido@kmcq-gmbh.com or mike082112@gmail.com
 
 import turtle
 mikeq = turtle.Turtle()
