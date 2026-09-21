@@ -5,7 +5,7 @@
 # Copyright (C) 2024 Open Source Matters, Inc. All rights reserved.
 # Purely written By: Michael M. Quisido III using Python Programming Language
 # GNU General Public License version 2 python 3.
-# For more information : info@ubuntu.com.ph or mike.quisido@ubuntu.com.ph
+# For more information : or mike082112@gmail.com
 
 import turtle
 
