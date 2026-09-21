@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# Independence Day Philippines
+# Independence Day Philippines June 12
 # This Python code is a drawing Philippine Flag in participation to the independence day 2024 Philippines. 
 # Copyright (C) 2024 Open Source Matters, Inc. All rights reserved.
 # Purely written By: Michael M. Quisido III using Python Programming Language
