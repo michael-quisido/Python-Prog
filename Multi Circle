@@ -5,10 +5,11 @@
 # Purely written By: Michael M. Quisido III using Python Programming Language
 # GNU General Public License version 2 or later.
 # For more information email me: mike.quisido@kmcq-gmbh.com or mike082112@gmail.com
-# Whats the problem yoh!
+
 
 import turtle
 def anime():
+import turtle
 
     mikeqcircle = turtle.Turtle()
     mikeqcircle.home
