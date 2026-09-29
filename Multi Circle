@@ -9,7 +9,6 @@
 
 import turtle
 def anime():
-import turtle
 
     mikeqcircle = turtle.Turtle()
     mikeqcircle.home
